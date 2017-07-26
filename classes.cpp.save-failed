@@ -1,0 +1,59 @@
+class Snake {
+public:
+    int position;
+    double color_r,color_g,color_b;
+    vector<double> last_position;
+    int length;
+    double radius;
+    double del_coeff;
+    double tail_lag;
+
+    Snake()
+    {
+        position = 0;
+        color_r = 1;
+        color_g = 1;
+        color_b = 0;
+        length = 5;
+        radius = 8;
+        del_coeff = 1;
+        tail_lag = .1;
+        for(int i=0; i<length; i++) last_position.push_back(0);
+    }
+
+};
+
+class Block {
+    int max_block_weight;
+public:
+    double color_r[5], color_g[5], color_b[5];
+    int weight[5];
+    Block()
+    {
+        max_block_weight = 10;
+        for(int i=0; i<5; i++)
+        {
+            color_r[i] = rand();
+            color_g[i] = rand();
+            color_b[i] = rand();
+
+            weight[i] = rand()*max_block_weight;
+        }
+    }
+};
+
+class Bar {
+public:
+    double length,width;
+    int position;
+
+    Bar()
+    {
+
+    }
+    bool appear()
+    {
+        return rand()<.5;
+    }
+};
+

@@ -1,8 +1,6 @@
 # depslib dependency file v1.0
-1500845128 source:c:\users\avash\desktop\joy\main.cpp
-	<windows.h>
-	<bits/stdc++.h>
-	<GL/glut.h>
+1501097821 source:c:\users\avash\desktop\joy\main.cpp
+	"classes.h"
 
 1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
 	<winresrc.h>
@@ -218,4 +216,21 @@
 1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
+
+1501097801 source:c:\users\avash\desktop\joy\classes.cpp
+	<bits/stdc++.h>
+
+1501098766 c:\users\avash\desktop\joy\classes.h
+	<bits/stdc++.h>
+	<windows.h>
+	<GL/glut.h>
+	<windows.h>
+	<GL/glut.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	"classes.cpp"
+
+1501097801 c:\users\avash\desktop\joy\classes.cpp
+	<bits/stdc++.h>
 
